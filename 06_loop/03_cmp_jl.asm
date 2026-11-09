@@ -1,5 +1,5 @@
 section .data
-    message db "Number: "
+    message db "Number: " ;//printing a string
     length equ $ - message
     newline db 10
 
